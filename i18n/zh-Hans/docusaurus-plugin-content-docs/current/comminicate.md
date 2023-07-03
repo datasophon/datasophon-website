@@ -10,4 +10,4 @@ title: 交流与贡献
 
 微信社区群（推荐）：扫描二维码添加微信，邀请进群，申请备注 “ DataSophon”。
 
-<img src=".\weixin.png" alt="image-20230619232833349" style="zoom: 33%;" />
+![weixin](./weixin.png)
