@@ -88,7 +88,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/datasophon/datasophon-website/',
+            'https://github.com/datasophon/datasophon-website/tree/main',
         },
         blog: {
           showReadingTime: true,
@@ -97,7 +97,7 @@ const config = {
           blogSidebarTitle: '全部博文',
           blogSidebarCount: 'ALL',
           editUrl:
-            'https://github.com/datasophon/datasophon-websiter',
+            'https://github.com/datasophon/datasophon-websiter/tree/main',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
