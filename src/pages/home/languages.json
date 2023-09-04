@@ -1,0 +1,113 @@
+{
+  "zh-Hans": {
+    "common": {
+      "getStart": "快速开始",
+      "architecture": "系统架构",
+      "learnMore": "了解更多",
+      "coreFeatures": "核心特性",
+      "coreFeaturesDesc": "让您的项目更轻松的核心特性",
+      "development": "开发脚手架",
+      "honor": "我们的荣誉",
+      "ourUsers": "Our Users",
+      "readMore": "阅读更多",
+      "download": "下载",
+      "releaseDate": "发布日期",
+      "newFeatures": "新特性",
+      "enhancement": "增强点",
+      "bugFixs": "问题修复",
+      "changeLog": "详细变更"
+    },
+    "slogan": {
+      "key": "",
+      "description": "致力于快速实现部署、管理、监控以及自动化运维大数据云原生平台，帮助您快速构建起稳定、高效、可弹性伸缩的大数据云原生平台"
+    },
+    "feature": [
+      {
+        "title": "极易部署",
+        "icon": "lni-code",
+        "details": "用户仅需几步即可完成初始化环境配置，可快速完成300个节点规模的大数据集群部署"
+      },
+      {
+        "title": "兼容开源生态",
+        "icon": "lni-layers",
+        "details": "全面兼容开源生态，基于开放式的管理架构，已集成多种常用大数据组件，包括数据集成、数据存储、计算引擎、任务调度、权限管理等大数据处理的各个环节"
+      },
+      {
+        "title": "兼容复杂环境",
+        "icon": "lni-library",
+        "details": "极简的架构设计，使其极易适配各种复杂环境，支持arm和x86机器混合部署，支持常用的Linux生态操作系统"
+      },
+      {
+        "title": "便捷运维",
+        "icon": "lni-magnet",
+        "details": "DataSophon支持Kerberos身份认证和数据加密，使用Ranger数据访问控制。支持数据加密，保证数据安全"
+      },
+      {
+        "title": "安全可靠",
+        "icon": "lni-shuffle",
+        "details": "DataSophon支持Kerberos身份认证和数据加密，使用Ranger数据访问控制。支持数据加密，保证数据安全"
+      },
+      {
+        "title": "便捷告警",
+        "icon": "lni-display-alt",
+        "details": "支持告警组和告警指标管理，监控指标全面丰富，用户可根据监控指标自定义告警组和告警指标。"
+      }
+    ]
+  },
+  "en": {
+    "common": {
+      "getStart": "Quick Start",
+      "architecture": "System Architecture",
+      "description": "Description",
+      "learnMore": "Learn More",
+      "coreFeatures": "Core Features",
+      "coreFeaturesDesc": "Modern features that will make your project easier.",
+      "development": "Development Framework",
+      "honor": "Our Honor",
+      "ourUsers": "Our Users",
+      "readMore": "Read More",
+      "download": "Download",
+      "releaseDate": "Release Date",
+      "newFeatures": "New Features",
+      "enhancement": "Enhancement point",
+      "bugFixs": "Bug Fix",
+      "changeLog": "Changelog"
+    },
+    "slogan": {
+      "key": "",
+      "description":  "致力于快速实现部署、管理、监控以及自动化运维大数据云原生平台，帮助您快速构建起稳定、高效、可弹性伸缩的大数据云原生平台"
+    },
+    "feature": [
+      {
+        "title": "极易部署",
+        "icon": "lni-code",
+        "details": "用户仅需几步即可完成初始化环境配置，可快速完成300个节点规模的大数据集群部署"
+      },
+      {
+        "title": "兼容开源生态",
+        "icon": "lni-layers",
+        "details": "全面兼容开源生态，基于开放式的管理架构，已集成多种常用大数据组件，包括数据集成、数据存储、计算引擎、任务调度、权限管理等大数据处理的各个环节"
+      },
+      {
+        "title": "兼容复杂环境",
+        "icon": "lni-library",
+        "details": "极简的架构设计，使其极易适配各种复杂环境，支持arm和x86机器混合部署，支持常用的Linux生态操作系统"
+      },
+      {
+        "title": "便捷运维",
+        "icon": "lni-magnet",
+        "details": "DataSophon支持Kerberos身份认证和数据加密，使用Ranger数据访问控制。支持数据加密，保证数据安全"
+      },
+      {
+        "title": "安全可靠",
+        "icon": "lni-shuffle",
+        "details": "DataSophon支持Kerberos身份认证和数据加密，使用Ranger数据访问控制。支持数据加密，保证数据安全"
+      },
+      {
+        "title": "便捷告警",
+        "icon": "lni-display-alt",
+        "details": "支持告警组和告警指标管理，监控指标全面丰富，用户可根据监控指标自定义告警组和告警指标。"
+      }
+    ]
+  }
+}
