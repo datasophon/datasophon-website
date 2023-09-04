@@ -54,7 +54,6 @@ const config = {
   themes: [
     [
       require.resolve("@easyops-cn/docusaurus-search-local"),
-      /** @type {import("@easyops-cn/docusaurus-search-local").PluginOptions} */
       ({
         // config url is: https://github.com/easyops-cn/docusaurus-search-local#theme-options
         hashed: true,
@@ -88,7 +87,7 @@ const config = {
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
-            'https://github.com/datasophon/datasophon-website/tree/main',
+            'https://github.com/datasophon/datasophon-website/',
         },
         blog: {
           showReadingTime: true,
@@ -97,7 +96,7 @@ const config = {
           blogSidebarTitle: '全部博文',
           blogSidebarCount: 'ALL',
           editUrl:
-            'https://github.com/datasophon/datasophon-websiter/tree/main',
+            'https://github.com/datasophon/datasophon-websiter',
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -111,7 +110,7 @@ const config = {
     ({
       colorMode: {
         defaultMode: 'light',
-        disableSwitch: false,
+        disableSwitch: true,
         respectPrefersColorScheme: false,
       },
       navbar: {
@@ -206,7 +205,11 @@ const config = {
         theme: lightCodeTheme,
         darkTheme: darkCodeTheme,
       },
+
     }),
+  plugins:[
+    'docusaurus-plugin-less',
+  ]
 };
 
 module.exports = config;
