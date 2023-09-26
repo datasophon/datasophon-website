@@ -13,7 +13,7 @@ export default function () {
         <div className="row text-center">
           <div className="col-12">
             <div className="mb-5">
-              <h2 className="h3 fw-bold">{dataSource.common.coreFeatures}</h2>
+              <h2 className="h2 fw-bold">{dataSource.common.coreFeatures}</h2>
               <hr className="divider my-4 mx-auto" />
               <p className="lead text-muted">{dataSource.common.coreFeaturesDesc}</p>
             </div>

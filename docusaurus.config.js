@@ -130,7 +130,7 @@ const config = {
 
           {
             type: 'localeDropdown',
-            position: 'right',
+            position: 'left',
             dropdownItemsAfter: [
               {
                 type: 'html',
@@ -152,7 +152,7 @@ const config = {
           {
             href: 'https://github.com/datasophon/datasophon',
             label: 'GitHub',
-            position: 'right',
+            position: 'left',
           },
         ],
       },
