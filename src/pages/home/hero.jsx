@@ -8,18 +8,13 @@ export default function () {
   const isBrowser = useIsBrowser();
   const language = isBrowser && location.pathname.indexOf('/en/') === 0 ? 'en' : 'zh-Hans'
   const dataSource = config?.[language];
-  const clientWidth = document.body.clientWidth
-  const scale =
-    clientWidth > 1900 ?
-      Number((clientWidth / 1900).toFixed(2)) + 0.1 :
-      Number((1900 / clientWidth).toFixed(2)) + 0.1
 
   return (
       <div className="section bg-light pb-9 pt-7 overflow-hidden">
 
       {/* background overlay */}
       <div className="overlay opacity-90 z-index-n1">
-        <svg style={{width: '100%', height: '100%', transform: 'scale(' + scale + ', 1)'}} xmlns="http://www.w3.org/2000/svg" width="1920" height="1000" preserveAspectRatio="xMidYMid" viewBox="0 0 1920 1000">
+        <svg style={{width: '100%', height: '100%', transform: 'scale(1.4, 1)'}} xmlns="http://www.w3.org/2000/svg" width="1920" height="1000" preserveAspectRatio="xMidYMid" viewBox="0 0 1920 1000">
             <g transform="translate(960,437.5) scale(1,1) translate(-960,-437.5)"><linearGradient id="lg-0.7760586418593289" x1="0" x2="1" y1="0" y2="0">
               <stop stopColor="#6a26da" offset="0"></stop>
               <stop stopColor="#6a26da" offset="1"></stop>
