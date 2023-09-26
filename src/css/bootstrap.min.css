@@ -340,8 +340,13 @@ template {
 }
 
 .lead {
-    font-size: 1.25rem;
-    font-weight: 300
+    font-size: 1.05rem;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.slogan-desc {
+    width: 400px;
 }
 
 .display-1 {
