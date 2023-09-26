@@ -10,9 +10,9 @@ export default function () {
   const dataSource = config?.[language];
   const clientWidth = document.body.clientWidth
   const scale =
-    clientWidth > 1920 ?
-      Number((clientWidth / 1920).toFixed(2)) + 0.1 :
-      Number((1920 / clientWidth).toFixed(2)) + 0.1
+    clientWidth > 1900 ?
+      Number((clientWidth / 1900).toFixed(2)) + 0.1 :
+      Number((1900 / clientWidth).toFixed(2)) + 0.1
 
   return (
       <div className="section bg-light pb-9 pt-7 overflow-hidden">
