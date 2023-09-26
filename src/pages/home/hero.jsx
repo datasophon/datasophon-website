@@ -9,12 +9,10 @@ export default function () {
   const language = isBrowser && location.pathname.indexOf('/en/') === 0 ? 'en' : 'zh-Hans'
   const dataSource = config?.[language];
   const clientWidth = document.body.clientWidth
-  console.log(clientWidth)
   const scale =
     clientWidth > 1920 ?
       Number((clientWidth / 1920).toFixed(2)) + 0.1 :
       Number((1920 / clientWidth).toFixed(2)) + 0.1
-  console.log(scale)
 
   return (
       <div className="section bg-light pb-9 pt-7 overflow-hidden">
