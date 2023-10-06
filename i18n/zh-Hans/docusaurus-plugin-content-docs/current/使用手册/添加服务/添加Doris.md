@@ -13,7 +13,13 @@ sidebar_label: 添加Doris
 
 ![image-20230425232648679](../img/image-20230425232648679.png)
 
-分配BE服务角色部署节点。
+分配DorisBE和DorisFEObserver服务角色部署节点。
+
+:::caution
+
+DorisFE与DorisFEObserver不能部署在同一台机器上，不然会出现端口冲突。
+
+:::
 
 ![image-20230425232720147](../img/image-20230425232720147.png)
 

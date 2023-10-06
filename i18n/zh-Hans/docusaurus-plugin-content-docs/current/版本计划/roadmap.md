@@ -14,13 +14,11 @@ sidebar_label: RoadMap
 
 主机管理支持机架管理。
 
-YARN资源调度支持容量调度器。
-
 YARN资源调度支持标签调度。
 
 支持组件集成Kerberos，可自由开启和关闭kerberos认证集成。
 
-## v1.2.0
+## v1.2.x
 
 集成数据湖组件。
 

@@ -50,3 +50,16 @@ bin/datasophon-worker.sh start worker
 
 通过tail -100f  logs/worker-{hostname}.out查看worker日志
 
+## 2、namenode format failed
+
+若journalnode安装成功，需要先停止journalnode ，删除journalnode节点/data/dfs/jn（默认目录）目录数据，之后再次启动journalnode。
+
+登录服务器停止namenode进程，并删除/data/dfs/nn（默认目录）目录数据。
+
+登录zk client删除znode  /hadoop-ha。
+
+重新添加namenode实例部署安装。
+
+## 3、zkfc format failed
+
+登录zookeeper客户端，删除znode /hadoop-ha，删除后重新添加zkfc实例安装。
