@@ -16,7 +16,7 @@ sidebar_label: RoadMap
 
 3、升级StreamPark版本至2.1.1。
 
-4、升级Flink版本至1.17.1。
+4、升级Flink版本至1.16.2。
 
 5、新增集成Kyuubi。
 
